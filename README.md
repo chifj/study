@@ -6,6 +6,7 @@ The LetterCombinationUtil class can support the 2 stage:
 2. convert the digits from 0 to 99 into letters
 
 The main method "com.itnet.study.util.LetterCombinationUtil.main" is provided here for doing test easier : 
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter an integer array separated by spaces(eg. 2 23 26): ");
@@ -20,5 +21,6 @@ The main method "com.itnet.study.util.LetterCombinationUtil.main" is provided he
             System.out.println("Output: " + letterCombination(arr).toString());
         }
     }
+
 
 Also, you can run the LetterCombinationUtilTest for test case.
